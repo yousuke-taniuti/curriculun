@@ -17,11 +17,8 @@ public class Main {
       String firstName  = "yousuke";
       String lastName = "taniutchi";
 
-
-
         //getName関数の呼び出しと出力
         System.out.println(getName(firstName, lastName));
-        System.out.println();
 
         int[] arr = {11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
 
@@ -29,10 +26,7 @@ public class Main {
         //   要素が奇数の場合には「nは奇数です。」と出力されます。
 
         for(int i = 0; i<arr.length; i++){
-
-
-            if(arr [i] % 2 == 1)
-            System.out.println(arr[i] + "は奇数です。");
+           isOdd(arr[i] );
         }
     }
 
@@ -46,10 +40,6 @@ public class Main {
 
             return "firstName" + "lastName";
         }
-
-
-
-
 
     //奇数の判定を行う。
     public static void isOdd(int num) {
