@@ -1,0 +1,91 @@
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 200px;
+        
+    }
+
+    .main{
+        width:200px;
+        display:block;
+        
+    }
+
+    .header{
+        width: 200px;
+        height: 200px;
+        
+        
+    }
+
+    .A {
+        
+        width: 60px;
+        height: 160px;
+        margin: 20px 70px 20px 70px;
+        
+    }
+    .a{
+       
+            margin: 10px 10px 5px 10px;
+        }
+    .b{
+            margin: 5px 10px 5px 10px;
+        }
+
+    .c{
+            margin: 5px 10px 10px 10px;
+            
+        }
+    
+
+   
+
+    
+
+   
+
+    .main{
+        width: 200px;
+    }
+
+    .left{
+        width: 200px;
+        height: 100px;
+    }
+
+    .right{
+        width: 200px;
+        height: 180px;
+        padding-top: 20px
+    }
+        .d{
+            width: 120px;
+            margin: 0px 30px 5px 30px;
+            
+        }
+
+        .e{
+            width: 120px;
+            margin: 5px 30px 5px 30px;
+        }
+
+        .f{
+            width: 120px;
+            margin: 5px 30px 20px 30px;
+
+        }
+    
+
+
+    
+
+    .footer{
+        width: 200px;
+        display:block;
+        margin: 0 ;
+    }
+}
+
+.contents {
+    float: none; /* 要素の浮動化の解除 */
+    }
