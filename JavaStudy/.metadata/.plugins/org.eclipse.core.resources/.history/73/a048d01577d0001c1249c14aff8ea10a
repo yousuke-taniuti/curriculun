@@ -1,0 +1,24 @@
+@chaeset "UTF-8";
+.header{
+	    backgraund-color: gray;
+	    display:flex;
+}
+.header-right{
+	    line-heightl: 44px;
+	    font-size: 10px
+}
+
+.main{
+	    padding-top: 50px
+	    padding-bottom: 50px;
+}
+
+.footer{
+	    backgraund-color: gray;
+}
+
+ label{
+        dishplay: inline-block;
+        padding: 10px;
+        color: white;
+ }

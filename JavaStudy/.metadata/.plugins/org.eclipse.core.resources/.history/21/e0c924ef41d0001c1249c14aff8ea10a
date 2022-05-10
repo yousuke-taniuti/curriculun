@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var today=new Date();
+
+
+var year = today.getFullYear();
+var month = today.getMonth()+1;
+var week = today.getDay();
+var day = today.getDate();
+
+var week_ja= new Array("日","月","火","水","木","金","土");
+
+
+document.write(year+"/"+month+"/"+day);
+  </script>
+ <header style="background-color:gray;">
+    <h1 style="display:inline-block;padding:10px;color:white;">login</h1>
+
+</body>
+</html>
