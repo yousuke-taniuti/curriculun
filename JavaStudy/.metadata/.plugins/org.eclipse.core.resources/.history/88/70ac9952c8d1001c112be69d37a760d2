@@ -1,0 +1,6 @@
+package abstracts;
+
+public class Trainee extends  avaCurriculumTrainee{
+
+   
+}
